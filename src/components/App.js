@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Route exact path="/" component={Home}></Route>
-      <Route exact path="/:id" component={Detail}></Route>
+      <Route path="/:id" component={Detail}></Route>
     </Router>
   );
 }
